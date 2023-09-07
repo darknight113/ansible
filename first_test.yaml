@@ -1,6 +1,6 @@
 ---
 - name: Playbook to Install and Start Nginx
-  hosts: dev
+  hosts: kube
   tasks:
   - name: Install nginx
     package:
