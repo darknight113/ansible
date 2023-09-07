@@ -1,4 +1,3 @@
----
 - name: Playbook to Install and Start Nginx
   hosts: Kube_network
   tasks:
