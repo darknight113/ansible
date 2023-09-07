@@ -1,7 +1,8 @@
 - name: Playbook to Install and Start Nginx
-  hosts: all
+  hosts: {{ Kube_network }}
   tasks:
   - name: Install nginx
     package:
       name: nginx
       state: present
+      
