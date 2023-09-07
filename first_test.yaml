@@ -1,5 +1,5 @@
 - name: Playbook to Install and Start Nginx
-  hosts: {{groups["Kube_network"]}}
+  hosts: "Kube_network"
   tasks:
   - name: Install nginx
     package:
